@@ -1,0 +1,60 @@
+PODS:
+  - Realm (3.7.1):
+    - Realm/Headers (= 3.7.1)
+  - Realm/Headers (3.7.1)
+  - RealmSwift (3.7.1):
+    - Realm (= 3.7.1)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxRealm (0.7.5):
+    - RealmSwift (~> 3.0)
+    - RxSwift (~> 4.0)
+  - RxRealmDataSources (0.2.9):
+    - RealmSwift (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxRealm (~> 0.7.3)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+  - Then (2.3.0)
+
+DEPENDENCIES:
+  - RealmSwift
+  - RxCocoa
+  - RxRealmDataSources (from `https://github.com/taoshotaro/RxRealmDataSources.git`)
+  - RxSwift
+  - SnapKit
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRealm
+    - RxSwift
+    - SnapKit
+    - Then
+
+EXTERNAL SOURCES:
+  RxRealmDataSources:
+    :git: https://github.com/taoshotaro/RxRealmDataSources.git
+
+CHECKOUT OPTIONS:
+  RxRealmDataSources:
+    :commit: 7e2dd5fa3273e877a0168bb37c69a021f294f386
+    :git: https://github.com/taoshotaro/RxRealmDataSources.git
+
+SPEC CHECKSUMS:
+  Realm: 906be37d52f17f25484ac01643a7f26a9d3bfbd5
+  RealmSwift: 1c2b6bae3dc55bb87e080ffa96537d71442f6dce
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxRealm: a6c6c0a07cb61f34209969ca6657734edfdfff30
+  RxRealmDataSources: bbf42a78dcce32a7dbf37188e4a228c9ebb85ba0
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
+
+PODFILE CHECKSUM: f40a06ef68a4d34b2c606808e69877ef522a4363
+
+COCOAPODS: 1.6.1
